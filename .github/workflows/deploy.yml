@@ -1,0 +1,32 @@
+name: Deploy Vite React to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # change if your default branch is different
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1️⃣ Checkout code
+      - uses: actions/checkout@v4
+
+      # 2️⃣ Install Node
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 20
+
+      # 3️⃣ Install dependencies
+      - run: npm ci
+
+      # 4️⃣ Build the site
+      - run: npm run build
+
+      # 5️⃣ Deploy to GitHub Pages
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: dist
