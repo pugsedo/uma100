@@ -8,6 +8,8 @@
 
 **A simple web game to test your memory of Uma Musume characters.**
 
+Click here to try it! 👉 [https://pugsedo.github.io/uma100/](https://pugsedo.github.io/uma100/)
+
 ---
 
 ## 🚀 About
