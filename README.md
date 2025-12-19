@@ -3,9 +3,8 @@
 # UMA100 🎴
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![React Version](https://img.shields.io/badge/React-18.2.0-blue)](https://reactjs.org/)
-[![npm version](https://img.shields.io/npm/v/your-package-name)](https://www.npmjs.com/package/your-package-name)
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/uma100?style=social)](https://github.com/yourusername/uma100)
+[![React Version](https://img.shields.io/badge/React-19.2.0-blue)](https://reactjs.org/)
+[![GitHub stars](https://img.shields.io/github/stars/yourusername/uma100?style=social)](https://github.com/pugsedo/uma100)
 
 **A simple web game to test your memory of Uma Musume characters.**
 
