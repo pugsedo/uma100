@@ -31,7 +31,7 @@ export function Bingo() {
   // fetch + shuffle once
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch("/data/data.json")
+      const response = await fetch("/uma100/data/data.json")
       const json: Character[] = await response.json()
 
       const shuffled = [...json].sort(() => Math.random() - 0.5)
@@ -109,7 +109,7 @@ export function Bingo() {
             }`}
           >
             <img
-              src={`/data/${item.thumb
+              src={`/uma100/data/${item.thumb
                 .split("/")
                 .map(encodeURIComponent)
                 .join("/")}`}
